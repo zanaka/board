@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8"/>
+    <title>Slim Board</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <h1>掲示板</h1>
+    <form method="POST" action="/board">
+        <div class="board">
+            <div class="board-body">
+                <div class="card-text">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <input type="text" name="message" id="subject">
+                        <br>
+                        <label for="name">User name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                </div>
+            </div>
+            <div class="board-button">
+                <input type="submit" value="投稿">
+            </div>
+        </div>
+    </form>
+
+    <div class="index">
+        <h2>投稿一覧(×件)</h2>
+    </div>
+</div>
+</body>
+</html>
