@@ -7,10 +7,6 @@ use Slim\Http\Response;
 
 //ルーティングの記述は$app->http_method('URL',function)
 
-//// 掲示板全体画面の表示
-//$app->get('/board', function (Request $request, Response $response) {
-//    return $this->renderer->render($response, 'board.phtml');
-//});
 
 //掲示板(上)　内容入力送信フォーム
 $app->post('/board', function (Request $request, Response $response) {
