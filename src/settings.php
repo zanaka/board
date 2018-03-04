@@ -16,12 +16,12 @@ return [
             'level' => \Monolog\Logger::DEBUG,
         ],
 
-        // database
-        'db' => [
-            'host'   => 'localhost',
-            'user'   => 'testuser',
-            'pass'   => 'pw4testuser',
-            'dbname' => 'testdb'
-        ],
+//        // database
+//        'db' => [
+//            'host'   => 'localhost',
+//            'user'   => 'testuser',
+//            'pass'   => 'pw4testuser',
+//            'dbname' => 'testdb'
+//        ],
     ],
 ];
